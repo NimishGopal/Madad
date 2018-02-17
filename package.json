@@ -1,0 +1,27 @@
+{
+  "name": "Madad",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.53.0",
+    "react-native-animatable": "^1.2.4",
+    "react-native-camera": "^0.13.0",
+    "react-native-drawer": "^2.5.0",
+    "react-native-google-places": "^2.4.2",
+    "react-native-router-flux": "^3.39.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.2.2",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.2.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
